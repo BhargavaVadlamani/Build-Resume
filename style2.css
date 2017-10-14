@@ -1,0 +1,18 @@
+body {
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 0px;
+    padding-top: 20px;
+}
+
+h1 {
+    background-color:gainsboro;
+}
+
+h3 {
+    color:slategray;
+}
+
+p {
+    color:blue;
+}

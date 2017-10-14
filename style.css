@@ -1,0 +1,36 @@
+body {
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 0px;
+    padding-top: 20px;
+}
+
+#div1 {
+    color:slategrey;   
+}
+
+#h2 {
+    color:deepskyblue;   
+}
+
+#mainDiv {
+    background-color:azure;   
+}
+
+#save {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    background-color:darkgray
+}
+
+#retrieve {
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color:darkgray
+
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div id="div1">
+        <h1><center>Build your resume</center></h1>
+    </div>
+    <div >
+        <h5 id='h2'>Retrieve a previously saved resume by first name</h5>
+        <input type="text" name='name' id="retrieveInput" placeholder='Type in first name'>
+        <button id="retrieve">Retrieve Resume</button>
+    </div>
+    <div id="mainDiv">
+        <h3>Personal Details</h3>
+        <form>
+            * First Name:<br>
+            <input type="text" name='firstname' id="fn"><br>
+            * Last Name:<br>
+            <input type="text" name="lastname" id="ln"><br>
+            Date of Birth:<br>
+            <input type='date' name='dob' id="dob"><br>
+            Country of residence:<br>
+            <input type='text' name='address' id="add"><br>
+            Gender:<br>
+            <input type="radio" name="gender" value="male" id='male'> M
+            <input type="radio" name="gender" value="female" id='female' checked> F
+            <input type="radio" name="gender" value="other" id="other"> Other  
+        </form>
+        <h3>Professional Details</h3>
+        <form>
+            * Job Role:<br>
+            <input type="text" name='jobrole' id="jr"><br>
+            * Number of years of experience:<br>
+            <input type="text" name="experience" id="exp"><br>
+            Primary business domain of work:<br>
+            <input type='text' name='domain' id="dom"><br>
+            * Primary technology of work:<br>
+            <input type='text' name='technology' id="tech">
+        </form>
+        <h3>Hobbies</h3>
+        <form>
+            Hobby 1:<br>
+            <input type="text" name='hobby1' id="h1"><br>
+            Hobby 2:<br>
+            <input type="text" name="hobby2" id="h2"><br>
+            Hobby 3:<br>
+            <input type="text" name="hobby3" id="h3"><br>
+        </form>
+    </div>  
+    <div>
+        <center>
+            <button id="save">Save Resume</button>
+        </center>
+    </div>
+    <script src="javascript.js"></script>   
+</body>
+</html>
